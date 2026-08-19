@@ -74,3 +74,42 @@ Modern Next.js frontend integrated with FastAPI backend services.
 
 ```bash
 python -m pip install --upgrade certifi truststore python-certifi-win32
+```
+
+### Navigate to Project Directory
+
+```bash
+cd backend
+```
+
+or
+
+```bash
+cd frontend
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+### Activate Virtual Environment
+
+```bash
+.\.venv\Scripts\activate
+```
+
+### Run Backend Server
+
+```bash
+uvicorn app.main:app --reload --port 8011
+```
+
+### Run Frontend
+
+Open a new terminal and navigate to the frontend folder:
+
+```bash
+npm run dev -- --webpack
+```
