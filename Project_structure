@@ -1,0 +1,68 @@
+📂 Project Structure
+
+smart_logistics-weather
+│
+├── backend
+│   │
+│   ├── .venv
+│   │
+│   ├── app
+│   │   ├── config
+│   │   │
+│   │   ├── routers
+│   │   │   ├── routes.py
+│   │   │   ├── weather.py
+│   │   │   └── websocket.py
+│   │   │
+│   │   ├── services
+│   │   │   ├── carbon_service.py
+│   │   │   ├── emission_service.py
+│   │   │   ├── prediction_service.py
+│   │   │   ├── recommendation_service.py
+│   │   │   ├── route_risk_service.py
+│   │   │   ├── routing_service.py
+│   │   │   └── weather_service.py
+│   │   │
+│   │   ├── utils
+│   │   │   ├── http_client.py
+│   │   │   └── weather_codes.py
+│   │   │
+│   │   ├── crud.py
+│   │   ├── db.py
+│   │   ├── main.py
+│   │   └── models.py
+│   │
+│   ├── .env
+│   └── logistics.db
+│
+├── frontend
+│   │
+│   ├── src
+│   │   ├── app
+│   │   │   ├── dashboard
+│   │   │   ├── favicon.ico
+│   │   │   ├── globals.css
+│   │   │   ├── layout.js
+│   │   │   └── page.js
+│   │   │
+│   │   ├── components
+│   │   │   ├── charts
+│   │   │   ├── dashboard
+│   │   │   ├── maps
+│   │   │   ├── recommendations
+│   │   │   ├── route-intelligence
+│   │   │   ├── sustainability
+│   │   │   ├── ui
+│   │   │   └── weather
+│   │   │
+│   │   └── lib
+│   │       ├── api.js
+│   │       ├── dashboard-context.js
+│   │       ├── emissions.js
+│   │       ├── routes.js
+│   │       └── weather.js
+│   │
+│   ├── .env.local
+│   └── .gitignore
+│
+└── README.md
